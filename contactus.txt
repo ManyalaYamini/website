@@ -1,0 +1,74 @@
+<!DOCTYPE HTML >
+<html>
+ <head>
+  <title>contactus</title>
+  <style>
+  .class1{
+color:#cc6633;
+font-size:50px;
+text-align:center;
+margin-left:0px;
+}
+.menuitems{
+border:4px solid black;
+padding:15px;
+}
+.menuitem{
+font-size:30px;
+text-decoration:none;
+color:green;
+padding:10px;
+}
+a:hover{
+background-color:blue;
+color:white;
+}
+body {
+ background-image: url("https://t3.ftcdn.net/jpg/02/43/02/84/360_F_243028436_l9JIPbeQRNDVN6dzdqtdogTMdnitHpCt.jpg");
+ background-repeat: no-repeat;
+ background-size:cover;
+ font-family: Verdana,sans-serif;
+}
+</style>
+ <body bgcolor="#f5c8b4">
+ <div>
+<p class="class1">Quality Education</p> 
+</div>
+  <div class="menuitems">
+<a href="index.html" class="menuitem">Home</a>
+<a href="login.html" class="menuitem">Login</a>
+<a href="registration.html" class="menuitem">Registration</a>
+<a href="contactus.html" class="menuitem">Contact us</a>
+<a href="aboutus.html" class="menuitem">About us</a>
+</div>
+<marquee><small>ALL THE COURSES ARE TRAINED BY WELL-KNOWN TRAINERS AND AVAILABLE FOR FREE OF COST.FOR ANY HELP CONTACT qualityeducation@gmail.com</small></marquee>
+<fieldset><center>
+<div>
+<img src="https://static.thenounproject.com/png/4147388-200.png" width="90" height="90">
+  <form action="<path>" method="post">
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select><br>
+
+    <label for="subject">Report Problem:</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+
+    <input type="submit" value="Submit"><br><br><br>
+	<footer>
+<p>we will check your problem and report you in email within 10 days</p>
+</footer>
+</fieldset>
+  </form>
+</div>
+</body>
+</html>

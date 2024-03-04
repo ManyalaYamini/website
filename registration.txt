@@ -1,0 +1,100 @@
+<!DOCTYPE HTML >
+<html>
+ <head>
+  <title>registration</title>
+  <style>
+  .class1{
+color:#cc6633;
+font-size:50px;
+text-align:center;
+margin-left:0px;
+}
+.menuitems{
+border:4px solid black;
+padding:15px;
+}
+.menuitem{
+font-size:30px;
+text-decoration:none;
+color:green;
+padding:10px;
+}
+a:hover{
+background-color:blue;
+color:white;
+}
+body {
+ background-image: url("https://t3.ftcdn.net/jpg/02/43/02/84/360_F_243028436_l9JIPbeQRNDVN6dzdqtdogTMdnitHpCt.jpg");
+ background-repeat: no-repeat;
+ background-size:cover;
+ font-family: Verdana,sans-serif;
+}
+</style>
+ <body bgcolor="#f5c8b4">
+ <div>
+<p class="class1">Quality Education</p> 
+</div>
+  <div class="menuitems">
+<a href="index.html" class="menuitem">Home</a>
+<a href="login.html" class="menuitem">Login</a>
+<a href="registration.html" class="menuitem">Registration</a>
+<a href="contactus.html" class="menuitem">Contact us</a>
+<a href="aboutus.html" class="menuitem">About us</a>
+</div>
+<marquee><small>ALL THE COURSES ARE TRAINED BY WELL-KNOWN TRAINERS AND AVAILABLE FOR FREE OF COST.FOR ANY HELP CONTACT qualityeducation@gmail.com</small></marquee>
+  <center>
+	<p align=center> <h2> REGISTRATION</h2>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeQ5e6N4MOHlYH6jDeK_BNTLMJKN0FV9LWqw&usqp=CAU" width="200px" height="100px">
+	<fieldset>
+	<legend>Basic Information:</legend>
+	<form action="<path>" method="post">
+	<table>
+	<tr>
+	<td>Username/email:</td>
+	<td><input type="text" name="Username/email"></td>
+	</tr>
+	<tr>
+	<td>Password:</td>
+	<td><input type="password" name="Password"></td>
+	</tr>
+	<td>Re-enter Password:</td>
+    <td><input type="password" name="Re-enter Password"></td>
+	</tr>
+	<tr>
+	<td>Gender:</td>
+	<td><input type="radio" name="Gander" value="Male">Male
+	<input type="radio" name="Gender" value="Female">Female</td>
+	</tr>
+	<tr>
+	<td>DOB:</td>
+	<td><input type="date" name="dob"></td>
+	</tr>
+	<tr>
+	<td>Technical knowledges:</td>
+	<td><select name="Technical knowledges:">
+	   <option value="basicpython">basicpython</option>
+       <option value="python fullstack">python fullstack</option>
+	   <option value="c programing">c programing</option>
+	   <option value="java">java</option>
+	   <option value="java script">java script</option>
+	   <option value="html&css">htlm&css</option>
+	   <option value="R programing">R programing</option>
+	   <option value="sql">sql</option>
+	   <option value="cyber security">cyber security</option>
+	   </tr>
+	<tr>
+	<td>Duration:</td>
+	<td><select name="Duration">
+         <option value="short term">Short term</option>
+	     <option value="long term">Long term</option></td>
+		</tr>
+		<tr>
+		<td><input type="submit"></td>
+		<td><input type="reset"></td>
+		
+		 </tr>
+		 </table>
+		 </fieldset>
+	</center>
+	</body>
+	</html>

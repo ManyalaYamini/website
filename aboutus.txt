@@ -1,0 +1,71 @@
+<!DOCTYPE HTML >
+<html>
+ <head>
+  <title>aboutus</title>
+  <style>
+  .class1{
+color:#cc6633;
+font-size:50px;
+text-align:center;
+margin-left:0px;
+}
+.menuitems{
+border:4px solid black;
+padding:15px;
+}
+.menuitem{
+font-size:30px;
+text-decoration:none;
+color:green;
+padding:10px;
+}
+a:hover{
+background-color:blue;
+color:white;
+}
+body {
+ background-image: url("https://c8.alamy.com/comp/2F6HMFN/qe-letters-beautiful-floral-feminine-editable-premade-monoline-logo-suitable-for-spa-salon-skin-hair-beauty-boutique-and-cosmetic-company-2F6HMFN.jpg" );
+ background-repeat:no-repeat;
+ font-family: Verdana,sans-serif;
+ background-size:2000px 1300px;
+}
+section{
+border:1px solid grey;
+text-align:center;
+border-radius:5px;
+padding:10px;
+color:#cc0066
+}
+h4{
+color:#cc6633
+}
+</style>
+ <body bgcolor="#f5c8b4">
+ <div>
+<p class="class1">Quality Education</p> 
+</div>
+  <div class="menuitems">
+<a href="index.html" class="menuitem">Home</a>
+<a href="login.html" class="menuitem">Login</a>
+<a href="registration.html" class="menuitem">Registration</a>
+<a href="contactus.html" class="menuitem"> Contact us</a>
+<a href="aboutus.html" class="menuitem">About us</a>
+</div>
+<marquee><small>ALL THE COURSES ARE TRAINED BY WELL-KNOWN TRAINERS AND AVAILABLE FOR FREE OF COST.FOR ANY HELP CONTACT qualityeducation@gmail.com</small></marquee>
+<section>
+<h3>VISION</h3>
+<p><strong>Create economic opportunity for every member of the global workforce.</strong></p>
+</section>
+<section>
+<h3>MISSION</h3>
+<p><strong>The mission of Quality Education is simple:to provide education in a Quality way and professionals to make them more productive and successful.</strong></p>
+</section>
+<section>
+<h3>WHO ARE WE?</h3>
+<p><strong>Quality Education began in co-founder shaanvi alice in 2023 and was officially launched on august 5, 2023</strong></p>
+</section>
+<br>
+<br>
+<h4>FOR MORE INFORMATION ABOUT OUR COMPANY->:</h4>
+</body>
+</html>
